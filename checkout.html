@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/tshirty (4).png" type="image/x-icon">
+    <title>checkout</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-top">
+            <div class="header-container container">
+                <div class="header-contact">
+                    <span>(+01) - 2345 - 6789</span>
+                    <span> Our location </span>
+                </div>
+
+                <p class="header-alert-news">
+                    Super Value Deals - Save more with coupons
+                </p>
+
+                <a href="login-register.html" class="header-top-action">
+                    Log In / Sign Up
+                </a>
+            </div>
+        </div>
+
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/tshirty (4).png" class="nav-logo-img">
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="shop.html" class="nav-link ">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="accounts.html" class="nav-link">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="compare.html" class="nav-link">Compare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login-register.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+
+                <div class="header-search">
+                    <input type="text" class="form-input" placeholder="Search for items...">
+
+                    <button class="search-btn">
+                        <img src="img/search.png">
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="header-user-action">
+                <a href="wishlist.html" class="header-action-btn">
+                    <img src="img/icon-heart.svg">
+                    <span class="count">3</span>
+                </a>
+                <a href="cart.html" class="header-action-btn">
+                    <img src="img/icon-cart.svg">
+                    <span class="count">3</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="breadcrumb">
+            <ul class="breadcrumb-list flex container">
+                <li><a href="index.html" class="breadcrumb-link">Home</a></li>
+                <li><span class="breadcrumb-link">></span></li>
+                <li><span class="breadcrumb-link">Shop</span></li>
+                <li><span class="breadcrumb-link">></span></li>
+                <li><span class="breadcrumb-link">Checkout</span></li>
+            </ul>
+        </section>
+
+        <section class="checkout section-lg">
+            <div class="checkout-container container grid">
+                <div class="checkout-group">
+                    <h3 class="section-title">Billing Details</h3>
+
+                    <form action="#" class="form grid">
+                        <input type="text" placeholder="Name" class="form-input">
+                        <input type="text" placeholder="Address" class="form-input">
+                        <input type="text" placeholder="City" class="form-input">
+                        <input type="text" placeholder="Country" class="form-input">
+                        <input type="text" placeholder="Postcode" class="form-input">
+                        <input type="text" placeholder="Phone" class="form-input">
+                        <input type="email" placeholder="Email" class="form-input">
+
+                        <h3 class="checkout-title">Additional Information</h3>
+
+                        <textarea placeholder="Order note" cols="30" rows="10" class="form-input textarea"></textarea>
+                    </form>
+                </div>
+
+                <div class="checkout-group">
+                    <h3 class="section-title">Cart Totals</h3>
+
+                    <table class="order-table">
+                        <tr>
+                            <th colspan="2">Products</th>
+                            <th>Total</th>
+                        </tr>
+
+                        <tr>
+                            <td><img src="img/product-1-2.jpg" class="order-img"></td>
+                            <td>
+                                <h3 class="table-title">Yidarton Women Summer Blue</h3>
+                                <p class="table-quantity">x 2</p>
+                            </td>
+                            <td><span class="table-price">$180.00</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="img/product-2-1.jpg" class="order-img"></td>
+                            <td>
+                                <h3 class="table-title">LDB MOON Women Summer</h3>
+                                <p class="table-quantity">x 1</p>
+                            </td>
+                            <td><span class="table-price">$65.00</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="img/product-7-2.jpg" class="order-img"></td>
+                            <td>
+                                <h3 class="table-title">Women's Short Sleeve Loose</h3>
+                                <p class="table-quantity">x 2</p>
+                            </td>
+                            <td><span class="table-price">$150.00</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="order-subtitle">SubTotal</span></td>
+                            <td colspan="2"><span class="table-price">$280.00</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="order-subtitle">Shipping</span></td>
+                            <td colspan="2"><span class="table-price">Free Shipping</span></td>
+                        </tr>
+
+                        <tr>
+                            <td><span class="order-subtitle">Total</span></td>
+                            <td colspan="2"><span class="order-grand-total">$280.00</span></td>
+                        </tr>
+
+                    </table>
+
+                    <div class="payment-methods">
+                        <h3 class="checkout-title payment-title">Payment</h3>
+
+                        <div class="payment-option flex">
+                            <input type="radio" name="radio" checked class="payment-input">
+                            <label for="" class="payment-label">Direct Bank Transfer</label>
+                        </div>
+
+                        <div class="payment-option flex">
+                            <input type="radio" name="radio" class="payment-input">
+                            <label for="" class="payment-label">Check Payment</label>
+                        </div>
+
+                        <div class="payment-option flex">
+                            <input type="radio" name="radio" class="payment-input">
+                            <label for="" class="payment-label">Paypal</label>
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-md">Place Order</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section home-newsletter" >
+            <div class="newsletter-container container grid">
+                <h3 class="newsletter-title flex">
+                    <img src="img/icon-email.svg" class="newsletter-icon">
+                    Sign up to Newsletter
+                </h3>
+
+                <p class="newsletter-description">
+                    ... and receive $25 coupon for first shopping.
+                </p>
+
+                <form action="" class="newsletter-form">
+                    <input type="text" class="newsletter-input" placeholder="Enter your email">
+                    <button type="submit" class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer container">
+        <div class="footer-container grid">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">
+                    <img src="img/tshirty (4).png" class="footer-logo-img">
+                </a>
+
+                <h4 class="footer-subtitle">Contact</h4>
+
+                <p class="footer-description">
+                    <span>Address: </span>562 Wellington Road, Street 32, San Francisco
+                </p>
+
+                <p class="footer-description">
+                    <span>Phone: </span> +01 2222 365 /(+91) 01 2345 6789
+                </p>
+
+                <p class="footer-description">
+                    <span>Hours: </span> 10:00 - 18:00, Mon - Sat
+                </p>
+
+                <div class="footer-social">
+                    <h4 class="footer-subtitle">Follow Me</h4>
+
+                    <div class="footer-social-links">
+                        <a href="">
+                            <img src="img/icon-facebook.svg" class="footer-social-icon">
+                        </a>
+                        <a href="">
+                            <img src="img/icon-twitter.svg" class="footer-social-icon">
+                        </a>
+                        <a href="">
+                            <img src="img/icon-instagram.svg" class="footer-social-icon">
+                        </a>
+                        <a href="">
+                            <img src="img/icon-pinterest.svg" class="footer-social-icon">
+                        </a>
+                        <a href="">
+                            <img src="img/icon-youtube.svg" class="footer-social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Address</h3>
+
+                <ul class="footer-links">
+                    <li><a href="" class="footer-link">About Us</a></li>
+                    <li><a href="" class="footer-link">Delivery Information</a></li>
+                    <li><a href="" class="footer-link">Privacy Policy</a></li>
+                    <li><a href="" class="footer-link">Terms & Conditions</a></li>
+                    <li><a href="" class="footer-link">Contact Us</a></li>
+                    <li><a href="" class="footer-link">Support Center</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">My Account</h3>
+
+                <ul class="footer-links">
+                    <li><a href="" class="footer-link">Sign In</a></li>
+                    <li><a href="" class="footer-link">View Cart</a></li>
+                    <li><a href="" class="footer-link">My Wishlist</a></li>
+                    <li><a href="" class="footer-link">Track My Order</a></li>
+                    <li><a href="" class="footer-link">Help</a></li>
+                    <li><a href="" class="footer-link">Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Secured Payment Gateways</h3>
+
+                <img src="img/payment-method.png" class="payment-img">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2024 Evara. All rights reserved</p>
+            <span class="designer">Designed by arn</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
