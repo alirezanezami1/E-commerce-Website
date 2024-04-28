@@ -33,4 +33,6 @@ const tabs  = document.querySelectorAll('[data-target]'),
 
 ```
 
+----
+
 Click to view the project [demo](https://alirezanezami1.github.io/E-commerce-Website/)  
